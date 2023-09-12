@@ -1,0 +1,134 @@
+
+body {
+  background-image: url(pexels-juan-pablo-serrano-arenas-877971.jpg);
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+  background-color: #050000;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+
+
+/* Media query for screens smaller than 768px (typically mobile devices) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media query for screens larger than 768px (typically tablets and desktops) */
+@media (min-width: 769px) {
+  body {
+    font-size: 18px; /* Adjust font size for larger screens */
+  }
+}
+.login-button{
+  background-color: royalblue;
+  color: rgb(255, 252, 252);
+}
+label[for="username"], label[for="password"] {
+  font-weight: bold;
+}
+ 
+.card.p-4.mb-4 {
+  background-color: #ADD8E6; /* Light Blue color */
+}
+.create-account-link {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.create-account-link {
+  color: #ffffff;
+  background-color: green;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.create-account-link {
+  color: #ffffff;
+  background-color: green;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.create-account-link:hover {
+  background-color: rgb(1, 1, 12);
+}
+
+.gallery img {
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1); /* Adjust the scale factor for zoom effect */
+}
+.gallery img {
+  width: 50px; /* Set the desired width */
+  height: 50px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+
+}
+.gallery {
+  background-color: rgb(26, 30, 39) ;
+  display: flex;
+  object-fit: contain;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  object-fit: contain;
+  margin-bottom: 10px; /* Add some space between image and text */
+}
+
+.logo-name {
+  font-size: 1.2em;
+  color: #faf6f6; /* Set the color of the logo name */
+  font-weight: bold; /* Make the font bold */
+  margin-top: 10px;
+}
+ .logo-wrapper{
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+ }
+ .image-container{
+  width: 1px;
+ }
+ .Paragraph h1, .Paragraph p {
+  color: lightyellow;
+}
